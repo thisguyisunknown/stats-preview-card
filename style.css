@@ -107,7 +107,7 @@ section:last-of-type {
   section:first-of-type {
     padding: 0;
   }
-  section:first-of-type > h2 {
+  h2 {
     font-size: 1.8rem;
   }
   section:last-of-type {
