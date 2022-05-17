@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](#)
-- Live Site URL: [Add live site URL here](https://thisguyisunknown.github.io/stats-preview-card)
+- Solution URL: [Solution on FrontEndMentor](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-using-simple-flexbox-B1e_LFlv9)
+- Live Site URL: [Preview Solution](https://thisguyisunknown.github.io/stats-preview-card)
 
 ## My process
 
