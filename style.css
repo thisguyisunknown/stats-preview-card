@@ -35,7 +35,7 @@ article {
 section:first-of-type {
   padding: 35px 25px;
 }
-section:first-of-type > h2 {
+h2 {
   font-family: 'Inter', Sans-Serif;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
