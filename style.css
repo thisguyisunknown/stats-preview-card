@@ -78,7 +78,18 @@ section:last-of-type {
 }
 @media (min-width: 400px) {
   article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     width: 400px;
+  }
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
   }
 }
 @media (min-width: 800px) {
@@ -126,12 +137,5 @@ section:last-of-type {
   .stat > p {
     margin-bottom: 0;
     font-size: .7rem;
-  }
-  .attribution {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1rem;
   }
 }
