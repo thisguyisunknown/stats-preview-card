@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Continued development
 
-I will improve the spacing of the elements soon.
+I will improve the spacing of the elements soon.(UPDATED)
 
 ## Author
 
