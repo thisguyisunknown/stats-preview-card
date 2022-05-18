@@ -15,7 +15,7 @@ article {
   background-color: hsl(244, 38%, 16%);
 }
 #header {
-  background-image: url('https://raw.githubusercontent.com/thisguyisunknown/stats-preview-card/main/images/image-header-mobile.jpg');
+  background-image: url('https://raw.githubusercontent.com/thisguyisunknown/stats-preview-card/main/images/image-header-mobile.jpg.');
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,8 +32,8 @@ article {
   width: 100%;
   height: 100%;
 }
-section:first-of-type {
-  padding: 35px 25px;
+#content {
+  padding: 35px 25px 10px 25px;
 }
 h2 {
   font-family: 'Inter', Sans-Serif;
@@ -53,7 +53,7 @@ section:first-of-type > p {
   font-size: .94rem;
 }
 section:last-of-type {
-  padding: 0 25px 10px 25px;
+  margin: 35px 0 0 0;
   font-family: 'Lexend Deca', Sans-Serif;
 }
 .stat > h3 {
@@ -83,6 +83,13 @@ section:last-of-type {
     left: 50%;
     transform: translate(-50%,-50%);
   }
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+  }
 }
 @media (min-width: 769px) {
   article {
@@ -107,7 +114,7 @@ section:last-of-type {
   section:first-of-type {
     padding: 0;
   }
-  h2 {
+  section:first-of-type > h2 {
     font-size: 1.8rem;
   }
   section:last-of-type {
@@ -116,16 +123,12 @@ section:last-of-type {
     display: flex;
     justify-content: space-between;
   }
+  .stat > h3 {
+    font-size: 1.2rem;
+  }
   .stat > p {
     margin-bottom: 0;
     font-size: .7rem;
-  }
-  .attribution {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1rem;
   }
 }
 @media (min-width: 1024px) {
